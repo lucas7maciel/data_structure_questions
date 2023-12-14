@@ -8,6 +8,8 @@ Note that for each digit in the input, if it is even, it must be multiplied by 2
 In addition, you must also multiply it by the position of the digit, where the unit digit corresponds to the value 1, the ten to the value 2, the hundred to 3, and so on.
 */
 
+#include <stdio.h>
+
 int willyLoop(int number, int value, int curr) {
     int lastDigit = number % 10;
 
